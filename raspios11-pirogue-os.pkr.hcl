@@ -1,5 +1,6 @@
 packer {
   required_plugins {
+    # plugin to be changed, not available anymore
     arm-image = {
       version = ">= 0.2.5"
       source  = "github.com/solo-io/arm-image"
